@@ -29,7 +29,7 @@ y = int(height)+1
 
 for a in range(1,y):
     for b in range(1,x):
-        print(a*b, end=" ")
+        print("{0:>3}".format(a*b), end=" ")
     print(" ")
 
 
