@@ -27,9 +27,10 @@ x = int(width)+1
 y = int(height)+1
 
 
-for a in range(1,x):
-    for b in range(1,y):
+for a in range(1,y):
+    for b in range(1,x):
         print(a*b, end=" ")
+    print(" ")
 
 print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
 print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
